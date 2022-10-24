@@ -19,9 +19,9 @@ package secret
 import (
 	"context"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/store/shared/db"
-	"github.com/drone/drone/store/shared/encrypt"
+	"github.com/mailbyms/drone/core"
+	"github.com/mailbyms/drone/store/shared/db"
+	"github.com/mailbyms/drone/store/shared/encrypt"
 )
 
 // New returns a new Secret database store.

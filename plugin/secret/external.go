@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/drone/drone-yaml/yaml"
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/logger"
+	"github.com/mailbyms/drone/core"
+	"github.com/mailbyms/drone/logger"
 
 	"github.com/drone/drone-go/drone"
 	"github.com/drone/drone-go/plugin/secret"

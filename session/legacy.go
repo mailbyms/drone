@@ -20,7 +20,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/drone/drone/core"
+	"github.com/mailbyms/drone/core"
 
 	"github.com/dgrijalva/jwt-go"
 )

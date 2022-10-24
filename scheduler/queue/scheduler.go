@@ -18,7 +18,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/drone/drone/core"
+	"github.com/mailbyms/drone/core"
 )
 
 type scheduler struct {

@@ -18,7 +18,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/drone/drone/core"
+	"github.com/mailbyms/drone/core"
 	"github.com/mailbyms/go-scm/scm"
 	"github.com/mailbyms/go-scm/scm/driver/github"
 )

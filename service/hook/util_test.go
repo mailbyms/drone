@@ -9,7 +9,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/drone/drone/mock/mockscm"
+	"github.com/mailbyms/drone/mock/mockscm"
 	"github.com/mailbyms/go-scm/scm"
 
 	"github.com/golang/mock/gomock"

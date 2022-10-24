@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/scheduler/internal"
+	"github.com/mailbyms/drone/core"
+	"github.com/mailbyms/drone/scheduler/internal"
 
 	"github.com/dchest/uniuri"
 	"github.com/hashicorp/go-multierror"

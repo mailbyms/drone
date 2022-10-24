@@ -17,7 +17,7 @@ package converter
 import (
 	"context"
 
-	"github.com/drone/drone/core"
+	"github.com/mailbyms/drone/core"
 )
 
 // Combine combines the conversion services, provision support

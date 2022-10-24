@@ -10,9 +10,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/operator/manager"
-	"github.com/drone/drone/store/shared/db"
+	"github.com/mailbyms/drone/core"
+	"github.com/mailbyms/drone/operator/manager"
+	"github.com/mailbyms/drone/store/shared/db"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/h2non/gock"

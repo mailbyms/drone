@@ -9,7 +9,7 @@ package pubsub
 import (
 	"testing"
 
-	"github.com/drone/drone/core"
+	"github.com/mailbyms/drone/core"
 )
 
 func nop(*core.Message) {}

@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/drone/drone/core"
+	"github.com/mailbyms/drone/core"
 	"github.com/h2non/gock"
 )
 

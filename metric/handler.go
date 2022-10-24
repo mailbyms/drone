@@ -10,7 +10,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/drone/drone/core"
+	"github.com/mailbyms/drone/core"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

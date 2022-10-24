@@ -11,9 +11,9 @@ import (
 	"database/sql"
 	"testing"
 
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/store/shared/db/dbtest"
-	"github.com/drone/drone/store/shared/encrypt"
+	"github.com/mailbyms/drone/core"
+	"github.com/mailbyms/drone/store/shared/db/dbtest"
+	"github.com/mailbyms/drone/store/shared/encrypt"
 )
 
 var noContext = context.TODO()

@@ -18,7 +18,7 @@ import (
 	"context"
 	"runtime/debug"
 
-	"github.com/drone/drone/core"
+	"github.com/mailbyms/drone/core"
 
 	"github.com/hashicorp/go-multierror"
 	"github.com/sirupsen/logrus"

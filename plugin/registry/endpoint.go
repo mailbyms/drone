@@ -10,8 +10,8 @@ import (
 	"context"
 
 	"github.com/drone/drone-go/plugin/registry"
-	"github.com/drone/drone/core"
-	"github.com/drone/drone/logger"
+	"github.com/mailbyms/drone/core"
+	"github.com/mailbyms/drone/logger"
 )
 
 // EndpointSource returns a registry credential provider
