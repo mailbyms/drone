@@ -18,7 +18,7 @@ import (
 	"net/http"
 
 	"github.com/drone/drone/core"
-	"github.com/drone/go-scm/scm"
+	"github.com/mailbyms/go-scm/scm"
 
 	"github.com/go-chi/chi"
 )

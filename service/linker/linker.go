@@ -18,7 +18,7 @@ import (
 	"context"
 
 	"github.com/drone/drone/core"
-	"github.com/drone/go-scm/scm"
+	"github.com/mailbyms/go-scm/scm"
 )
 
 // New returns a new Linker server.

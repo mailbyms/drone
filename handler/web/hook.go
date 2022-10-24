@@ -26,7 +26,7 @@ import (
 
 	"github.com/drone/drone/core"
 	"github.com/drone/drone/logger"
-	"github.com/drone/go-scm/scm"
+	"github.com/mailbyms/go-scm/scm"
 )
 
 // this is intended for local testing and instructs the handler

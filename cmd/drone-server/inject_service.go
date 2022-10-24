@@ -42,7 +42,7 @@ import (
 	"github.com/drone/drone/trigger"
 	"github.com/drone/drone/trigger/cron"
 	"github.com/drone/drone/version"
-	"github.com/drone/go-scm/scm"
+	"github.com/mailbyms/go-scm/scm"
 
 	"github.com/google/wire"
 )

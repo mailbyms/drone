@@ -25,7 +25,7 @@ import (
 	"github.com/drone/drone/plugin/secret"
 	"github.com/drone/drone/plugin/validator"
 	"github.com/drone/drone/plugin/webhook"
-	"github.com/drone/go-scm/scm"
+	"github.com/mailbyms/go-scm/scm"
 
 	"github.com/google/wire"
 )

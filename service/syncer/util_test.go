@@ -15,7 +15,7 @@ import (
 // 	"testing"
 
 // 	"github.com/drone/drone/core"
-// 	"github.com/drone/go-scm/scm"
+// 	"github.com/mailbyms/go-scm/scm"
 
 // 	"github.com/google/go-cmp/cmp"
 // )
