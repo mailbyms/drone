@@ -15,6 +15,7 @@
 package syncer
 
 import (
+	"fmt"
 	"context"
 	"strings"
 	"time"
@@ -103,7 +104,11 @@ func (s *Synchronizer) Sync(ctx context.Context, user *core.User) (*core.Batch, 
 			return nil, err
 		}
 		for _, repo := range repos {
+			fmt.Printf("***** Sync repo.Slug: %v\n", repo.Slug)
+			
 			if strings.Count(repo.Slug, "/") > 1 {
+				fmt.Printf("***** skipping subrepositories: %v\n", repo.Slug)
+
 				if logrus.GetLevel() == logrus.TraceLevel {
 					logger.WithField("namespace", repo.Namespace).
 						WithField("name", repo.Name).
