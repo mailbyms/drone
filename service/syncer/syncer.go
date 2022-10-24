@@ -106,8 +106,8 @@ func (s *Synchronizer) Sync(ctx context.Context, user *core.User) (*core.Batch, 
 		for _, repo := range repos {
 			fmt.Printf("***** Sync repo.Slug: %v\n", repo.Slug)
 			
-			if strings.Count(repo.Slug, "/") > 1 {
-				fmt.Printf("***** skipping subrepositories: %v\n", repo.Slug)
+			if strings.Count(repo.Slug, "/") > 100 {   // MIKE
+				fmt.Printf("***** skipping subrepositories deep > 100: %v\n", repo.Slug)
 
 				if logrus.GetLevel() == logrus.TraceLevel {
 					logger.WithField("namespace", repo.Namespace).
