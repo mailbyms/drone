@@ -36,7 +36,7 @@ require (
 	github.com/hashicorp/go-multierror v1.0.0
 	github.com/hashicorp/go-retryablehttp v0.5.4
 	github.com/hashicorp/golang-lru v0.5.1
-	github.com/hashicorp/nomad/api v0.0.0-20221021223845-dbd742d8057d
+	github.com/hashicorp/nomad/api v0.0.0-20201023134640-cd01438c153b
 	github.com/jmoiron/sqlx v0.0.0-20180614180643-0dae4fefe7c0
 	github.com/joho/godotenv v1.3.0
 	github.com/kelseyhightower/envconfig v1.3.0
